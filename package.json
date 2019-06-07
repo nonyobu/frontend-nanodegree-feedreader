@@ -1,22 +1,24 @@
 {
-  "name": "frontend-nanodegree-feedreader",
-  "version": "1.0.0",
-  "description": "Udacity frontend nanodegree project",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nonyobu/frontend-nanodegree-feedreader.git"
-  },
-  "author": "Antonio Sousa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nonyobu/frontend-nanodegree-feedreader/issues"
-  },
-  "homepage": "https://github.com/nonyobu/frontend-nanodegree-feedreader#readme",
-  "devDependencies": {
-    "gulp": "^4.0.2"
-  }
+    "name": "frontend-nanodegree-feedreader",
+    "version": "1.0.0",
+    "description": "Udacity frontend nanodegree project",
+    "main": "js/app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nonyobu/frontend-nanodegree-feedreader.git"
+    },
+    "author": "Antonio Sousa",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nonyobu/frontend-nanodegree-feedreader/issues"
+    },
+    "homepage": "https://github.com/nonyobu/frontend-nanodegree-feedreader#readme",
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "eslint-plugin-jasmine": "^2.10.1",
+        "gulp": "^4.0.2"
+    }
 }
