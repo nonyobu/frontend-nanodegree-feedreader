@@ -18,7 +18,7 @@ From [Udacity](https://www.udacity.com/) Classroom
 From [Udacity](https://www.udacity.com/) Classroom
 
 ### ESlint Jasmine Plugin
-[npmjs](https://www.npmjs.com/package/eslint-plugin-jasmine)
+More info: [npmjs](https://www.npmjs.com/package/eslint-plugin-jasmine)
 
 ### Jasmine Jquery
 [jasmie-jquery](https://github.com/velesin/jasmine-jquery) is a github project used to spy events for testing.
