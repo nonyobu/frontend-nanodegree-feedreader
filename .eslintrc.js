@@ -9,10 +9,20 @@ module.exports = {
     "extends": "eslint:recommended",
     "globals": {
         "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
+        "SharedArrayBuffer": "readonly",
+        "Handlebars": "readonly",
+        "google": "readonly",
+        "allFeeds": "readonly",
+        "spyOnEvent": "readonly",
+        "loadFeed": "readonly"
     },
     "parserOptions": {
         "ecmaVersion": 2018
     },
-    "rules": {}
+    "rules": {
+        "camelcase": ["error"],
+        "comma-dangle": ["error", "never"],
+        "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+        "no-unused-vars": ["error", { "args": "none" }]
+    },
 };
