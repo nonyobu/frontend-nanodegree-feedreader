@@ -24,7 +24,7 @@ More info: [npmjs](https://www.npmjs.com/package/eslint-plugin-jasmine)
 [jasmie-jquery](https://github.com/velesin/jasmine-jquery) is a github project used to spy events for testing.
 It's installed locally on `<project folder>\jasmine\lib\jasmine-jquery.js`;
 
-## How to run the project
+## How to run the application
 
 ### Running locally
 
@@ -34,4 +34,4 @@ It's installed locally on `<project folder>\jasmine\lib\jasmine-jquery.js`;
 
 ### Running on server
 
-1. hide tests from `index.html`;
+1. Open `url` of application;
