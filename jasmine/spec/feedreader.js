@@ -103,7 +103,7 @@ $(function() {
             });
         });
 
-        it('should show at least a single element', function(done) {
+        it('should show at least a single element', function() {
             expect($('.feed .entry').length).toBeGreaterThan(0);
         });
     })
@@ -126,7 +126,7 @@ $(function() {
             });
         });
 
-        it('load should change content', function(done) {
+        it('load should change content', function() {
             expect(newFeed).not.toEqual(firstFeed);
         });
     })
