@@ -59,8 +59,7 @@ $(function() {
          * hiding/showing of the menu element.
          */
         it('should be hidden by default', function() {
-            expect(document.body.classList.length).toBe(1);
-            expect(document.body.classList.item(0)).toBe('menu-hidden');
+            expect(document.body.classList.contains('menu-hidden')).toBe(true);
         });
 
         /* A test that ensures the menu changes
@@ -81,13 +80,12 @@ $(function() {
             //first click to show menu
             menuIcon.click();
             expect('click').toHaveBeenTriggeredOn(menuIcon);
-            expect(document.body.classList.length).toBe(0);
+            expect(document.body.classList.contains('menu-hidden')).toBe(false);
 
             //second click to hide menu
             menuIcon.click();
             expect('click').toHaveBeenTriggeredOn(menuIcon);
-            expect(document.body.classList.length).toBe(1);
-            expect(document.body.classList.item(0)).toBe('menu-hidden');
+            expect(document.body.classList.contains('menu-hidden')).toBe(true);
         });
     })
 
@@ -107,7 +105,6 @@ $(function() {
 
         it('should show at least a single element', function(done) {
             expect($('.feed .entry').length).toBeGreaterThan(0);
-            done();
         });
     })
 
@@ -131,7 +128,6 @@ $(function() {
 
         it('load should change content', function(done) {
             expect(newFeed).not.toEqual(firstFeed);
-            done();
         });
     })
 }());
